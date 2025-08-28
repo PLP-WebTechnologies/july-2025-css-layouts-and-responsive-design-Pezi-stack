@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">FlexGrid</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Modern Responsive Layout</h1>
+            <p>This webpage demonstrates the use of Flexbox and CSS Grid for creating responsive layouts that work on all device sizes.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="main-grid">
+            <main class="content">
+                <h2>Featured Content</h2>
+                <p>This layout uses CSS Grid for the main content area and sidebar, while utilizing Flexbox for the navigation, cards, and footer components.</p>
+                
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img" style="background-color: #3498db;"></div>
+                        <div class="card-content">
+                            <h3>Flexbox Usage</h3>
+                            <p>Flexbox is used for the navigation, cards, and footer layout.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-img" style="background-color: #2ecc71;"></div>
+                        <div class="card-content">
+                            <h3>Grid Usage</h3>
+                            <p>CSS Grid is used for the main content and sidebar layout.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-img" style="background-color: #e74c3c;"></div>
+                        <div class="card-content">
+                            <h3>Responsive Design</h3>
+                            <p>Media queries adjust the layout for different screen sizes.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>The combination of Flexbox and Grid allows for creating complex layouts with minimal code while maintaining responsiveness across devices.</p>
+            </main>
+            
+            <aside class="sidebar">
+                <h3>Sidebar</h3>
+                <p>This sidebar demonstrates additional content that can complement the main content area.</p>
+                
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">Understanding Flexbox</a></li>
+                    <li><a href="#">Mastering CSS Grid</a></li>
+                    <li><a href="#">Responsive Design Principles</a></li>
+                    <li><a href="#">Modern CSS Techniques</a></li>
+                    <li><a href="#">Web Performance Optimization</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We create responsive and accessible web layouts using modern CSS techniques.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: pezro74@gmail.com</p>
+                    <p>Phone: +971553960187</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Twitter | Facebook | Instagram</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pezi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
